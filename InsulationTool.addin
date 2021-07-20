@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command InsulationTool</Text>
+    <Description>Some description for InsulationTool</Description>
+    <Assembly>InsulationTool.dll</Assembly>
+    <FullClassName>InsulationTool.Command</FullClassName>
+    <ClientId>e4d19c87-1b6d-4187-9b31-b1dbcf90ce64</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application InsulationTool</Name>
+    <Assembly>InsulationTool.dll</Assembly>
+    <FullClassName>InsulationTool.App</FullClassName>
+    <ClientId>76e989f5-95f6-4295-a12a-f2dc5b352d0e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
